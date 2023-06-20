@@ -8,7 +8,10 @@
 
 name: RaspberryPi4 OpenWrt - self
 
-
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: 0 20 * * *
 
 env:
   SOURCE_URL: https://github.com/coolsnowwolf/lede
