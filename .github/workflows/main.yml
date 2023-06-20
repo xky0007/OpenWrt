@@ -8,8 +8,7 @@
 
 name: RaspberryPi4 OpenWrt - self
 
-on:
-  self-hosted
+runs-on:  self-hosted
 
 env:
   SOURCE_URL: https://github.com/coolsnowwolf/lede
